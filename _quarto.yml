@@ -1,0 +1,53 @@
+project:
+  output-dir: notebooks
+  preview:
+    browser: true
+    port: 4200
+    host: 127.0.0.1
+
+editor: source
+
+editor_options:
+  chunk_output_type: console
+
+format:
+    html:
+      theme:
+        - journal
+        - docs/formatting/custom.scss
+      toc: true
+      toc-location: left
+      toc-float: false
+      toc-depth: 3
+
+
+embed-resources: true
+numbering:
+  sections: true
+  figures: true
+  depth: 2
+
+code-overflow: wrap
+code-fold: true
+code-copy: hover
+code-block-border-left: "#4B2E83"
+code-block-bg: "#f4ecf7"
+highlight-style: tango
+
+fig-cap-location: bottom
+fig-align: left
+tbl-cap-location: top
+
+css: docs/formatting/style.css
+
+execute:
+  echo: true
+  eval: true
+  message: false
+  warning: false
+
+references:
+  link-citations: true
+  citations-hover: true
+  bibliography: docs/formatting/references.bib
+  csl: docs/formatting/genetics.csl
